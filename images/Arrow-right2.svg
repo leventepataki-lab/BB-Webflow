@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="300" height="300" viewBox="0, 0, 300, 300">
+  <defs>
+    <clipPath id="Clip_1">
+      <path d="M86.027,8 L213.973,8 L213.973,292 L86.027,292 z M129.96,17 L129.96,99.46 L95.027,99.46 L95.027,200.54 L129.96,200.54 L129.96,283 L204.973,150 L129.96,17 z"/>
+    </clipPath>
+    <filter id="Shadow_2">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5"/>
+      <feOffset dx="3" dy="3" result="offsetblur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="95.027" y1="150" x2="204.973" y2="150">
+      <stop offset="0" stop-color="#E98919"/>
+      <stop offset="1" stop-color="#FF4834"/>
+      <stop offset="1" stop-color="#E9531C"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1">
+    <g>
+      <path d="M129.96,17 L204.973,150 L129.96,283 L129.96,200.54 L95.027,200.54 L95.027,99.46 L129.96,99.46 L129.96,17 z" clip-path="url(#Clip_1)" filter="url(#Shadow_2)" fill="rgba(0,0,0,0.75)"/>
+      <path d="M204.973,150 L129.96,283 L129.96,200.54 L95.027,200.54 L95.027,99.46 L129.96,99.46 L129.96,17 L204.973,150 z" fill="url(#Gradient_1)"/>
+    </g>
+  </g>
+</svg>
